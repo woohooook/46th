@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="equipment_type">
+        <item>导发架</item>
+        <item>火发器</item>
+    </string-array>
+
+    <string-array name="xingneng">
+        <item>合格</item>
+        <item>不合格</item>
+        <item>不涉及</item>
+    </string-array>
+
+    <string-array name="shebeizhuangtai">
+        <item>存放</item>
+        <item>挂机</item>
+        <item>故障</item>
+        <item>大修</item>
+        <item>返航材</item>
+    </string-array>
+
+    <string-array name="jieyongzhuangtai">
+        <item>借用</item>
+        <item>未借用</item>
+    </string-array>
+
+    <string-array name="equipment_type_n">
+        <item>型号选择</item>
+        <item>PF-12</item>
+        <item>PF-8A</item>
+    </string-array>
+
+</resources>

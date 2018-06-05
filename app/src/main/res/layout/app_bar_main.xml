@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jx.ymc.a46th.MainActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#e08b90af"
+            app:titleTextAppearance="@style/ToolbarTitle"
+            app:popupTheme="@style/ToolbarTheme" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="                            机号： "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_2"
+                android:textSize="14sp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="请选择"/>
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_main" />
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="45dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="right|bottom"
+        app:menu_icon="@drawable/ic_add_black_24dp"
+        app:fab_size="mini"
+        android:background="@null"
+        app:menu_colorNormal="#B3B3B3"
+        app:menu_colorPressed="#B3B3B3"
+        app:menu_labels_ellipsize="end"
+        app:menu_labels_singleLine="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_8f"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_airplanemode_active_black_24dp"
+            android:visibility="gone"
+            app:fab_colorNormal="#B3B3B3"
+            app:fab_colorPressed="#B3B3B3"
+            app:fab_label="J8F"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_7a"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_airplanemode_inactive_black_24dp"
+            android:visibility="gone"
+            app:fab_colorNormal="#B3B3B3"
+            app:fab_colorPressed="#B3B3B3"
+            app:fab_label="J7A"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_xinghao"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_expand_less_black_24dp"
+            app:fab_colorNormal="#B3B3B3"
+            app:fab_colorPressed="#B3B3B3"
+            app:fab_label="型号"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_jihao"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flight_takeoff_black_24dp"
+            app:fab_colorNormal="#B3B3B3"
+            app:fab_colorPressed="#B3B3B3"
+            app:fab_label="机号"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_waigua"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu_manage"
+            app:fab_colorNormal="#B3B3B3"
+            app:fab_colorPressed="#B3B3B3"
+            app:fab_label="外挂"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

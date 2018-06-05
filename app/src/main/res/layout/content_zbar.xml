@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jx.ymc.a46th.ZbarActivity"
+    tools:showIn="@layout/app_bar_zbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll_zxing_1"
+        android:padding="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textSize="16sp"
+            android:textColor="@color/lightgray"
+            android:text="编号"
+            />
+
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_test"
+            android:layout_weight="4"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_2"
+            android:layout_below="@id/ll_zxing_1"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="型号"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_1"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_3"
+            android:layout_below="@id/ll_zxing_2"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="类型"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_2"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_4"
+            android:layout_below="@id/ll_zxing_3"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="主机号"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_3"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_5"
+            android:layout_below="@id/ll_zxing_4"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="设备状态"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_4"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_6"
+            android:layout_below="@id/ll_zxing_5"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="借用状态"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_5"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_7"
+            android:layout_below="@id/ll_zxing_6"
+            android:padding="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="操作人"
+                android:id="@+id/tv_czr"
+                />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_people"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_8"
+            android:layout_below="@id/ll_zxing_7"
+            android:padding="10dp"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="日期"
+                />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_zing_6"
+                android:layout_weight="3"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#ff646464"
+                android:background="@null"
+                android:id="@+id/date_zxing"
+                android:src="@drawable/ic_today_black_24dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_9"
+            android:layout_below="@id/ll_zxing_8"
+            android:padding="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:textColor="@color/lightgray"
+                android:text="用途"
+                />
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_trouble"
+                android:layout_weight="4"
+                android:textSize="16sp"
+                android:maxLines="3"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/ll_zxing_10"
+            android:layout_below="@id/ll_zxing_9"
+            android:padding="25dp"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="24sp"
+                android:textColor="#ff646464"
+                android:text="请先选择设备"
+                android:background="@null"
+                android:id="@+id/write_zxing"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
